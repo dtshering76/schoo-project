@@ -1,7 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+body {
+  box-sizing: border-box;
+}
+#header-section {
+  height: 100vh;
+  border: 10px solid hotpink;
 }
 .navbar-brand {
   color: #fff;
@@ -9,6 +11,9 @@
 .nav-link {
   color: #fff;
 }
-.btn {
-  outline-color: #fff;
+.header-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
