@@ -1,0 +1,59 @@
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#header-section {
+  height: 100vh;
+  background-color: #5b5b5b;
+  background-image: url("../images/school.JPG");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-origin: border-box;
+  background-attachment: fixed;
+  filter: brightness(50%);
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+ 
+}
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+Button {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+.nav-link {
+  color: #fff;
+}
+.header-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding-top: 250px;
+  color: whitesmoke;
+}
+
+.heading-space-between {
+ text-align: center;
+
+
+}
+.heading-center { 
+text-align: center;
+  
+  

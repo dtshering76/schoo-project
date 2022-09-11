@@ -1,0 +1,15 @@
+#header-section {
+  background-image: url("../images/mobile-size.jpg");
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
