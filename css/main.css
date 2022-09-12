@@ -4,7 +4,7 @@ body {
 }
 
 #header-section {
-  height: 100vh;
+  height: 80vh;
   background-color: #5b5b5b;
   background-image: url("../images/school.JPG");
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
   background-size: cover;
   background-origin: border-box;
   background-attachment: fixed;
-  filter: brightness(50%);
+  /* filter: brightness(50%); */
 }
 h1 {
   font-size: 2rem;
@@ -22,7 +22,6 @@ h1 {
 h2 {
   font-size: 1.4rem;
   font-weight: 700;
- 
 }
 h3 {
   font-size: 1.4rem;
@@ -43,17 +42,49 @@ Button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   padding-top: 250px;
   color: whitesmoke;
 }
 
 .heading-space-between {
- text-align: center;
-
-
+  text-align: center;
 }
-.heading-center { 
-text-align: center;
-  
-  
+.heading-center {
+  text-align: center;
+}
+.school-history {
+  float: left;
+}
+.school-programs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.school-background {
+  padding: 30px;
+  border: 5px solid hotpink;
+  margin-top: 20px;
+}
+.program {
+  padding-right: 150px;
+}
+/* Testimonal Section */
+
+#testimonial {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: whitesmoke;
+}
+.testimonial-message {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.testimonal-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
